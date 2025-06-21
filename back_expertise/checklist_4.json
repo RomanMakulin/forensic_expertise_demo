@@ -1,0 +1,87 @@
+{
+  "checklist": "Определение соответствия земельного участка",
+
+  "type_text": "",
+
+  "metadata": {
+
+    "district": {
+      "name": "Район или городской округ",
+      "type": "select",
+      "options": ["Район 1", "Район 2", "Район 3"],
+      "required": true
+    },
+
+    "cadastre-images": {
+      "name": "Изображения из кадастрового реестра",
+      "type": "files"
+    },
+
+    "open-source-images": {
+      "name": "Изображения из открытых ресурсов",
+      "type": "list",
+      "item_schema": {
+        "file": {
+          "type": "file",
+          "name": "Изображение"
+        },
+        "description": {
+          "type": "text",
+          "name": "Месяц и год"
+        }
+      }
+    },
+
+    "district-map-images": {
+      "name": "Изображения из карты района",
+      "type": "files"
+    },
+
+    "distinct-map-text": {
+      "name": "Территориальная зона",
+      "type": "text"
+    },
+
+    "intersection_percentage": {
+      "name": "Процент пересечения",
+      "type": "list",
+      "item_schema": {
+        "name": {
+          "type": "text",
+          "name": "Наименование"
+        },
+        "value": {
+          "type": "text",
+          "name": "Процент"
+        }
+      }
+    },
+
+    "pzz-screenshots": {
+      "name": "Скриншоты из ПЗЗ",
+      "type": "files"
+    },
+
+    "land_category": {
+      "name": "Категория земель",
+      "type": "select",
+      "options": ["Категория 1", "Категория 2", "Категория 3"],
+      "required": true
+    },
+
+    "permitted_use": {
+      "name": "Вид разрешенного использования",
+      "type": "select",
+      "options": ["Вид 1", "Вид 2", "Вид 3"],
+      "required": true
+    },
+
+    "vri_codes": {
+      "name": "Коды ВРИ",
+      "type": "select",
+      "options": ["Код 1", "Код 2", "Код 3"],
+      "required": true
+    }
+
+  }
+}

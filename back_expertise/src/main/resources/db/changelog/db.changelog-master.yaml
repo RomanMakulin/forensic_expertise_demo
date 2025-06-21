@@ -1,0 +1,56 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/001_init.sql
+
+  - changeSet:
+      id: 2
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/002_alter_question_add_column_order.sql
+
+  - changeSet:
+      id: 3
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/003_alter_expertise_createdat.sql
+
+  - changeSet:
+      id: 4
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/004_drop_checklists.sql
+
+  - changeSet:
+      id: 5
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/005_create_new_checklists.sql
+
+  - changeSet:
+      id: 6
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/006_alter_column_json.sql
+
+  - changeSet:
+      id: 7
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/007_alter_column_text.sql
+
+  - changeSet:
+      id: 8
+      author: Roman Makulin
+      changes:
+        - sqlFile:
+            path: classpath:db/migrations/008_alter_template_json.sql

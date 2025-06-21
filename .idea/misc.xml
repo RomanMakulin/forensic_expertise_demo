@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/back_admin/pom.xml" />
+        <option value="$PROJECT_DIR$/back_auth/pom.xml" />
+        <option value="$PROJECT_DIR$/back_config/pom.xml" />
+        <option value="$PROJECT_DIR$/back_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/back_expertise/pom.xml" />
+        <option value="$PROJECT_DIR$/back_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/back_mail/pom.xml" />
+        <option value="$PROJECT_DIR$/back_minio/pom.xml" />
+        <option value="$PROJECT_DIR$/back_profile/pom.xml" />
+        <option value="$PROJECT_DIR$/back_tariff/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="corretto-21" project-jdk-type="JavaSDK" />
+</project>

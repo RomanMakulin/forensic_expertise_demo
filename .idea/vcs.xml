@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_eureka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_expertise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_mail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_minio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_profile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/back_tariff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configuration_yml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/front-client" vcs="Git" />
+  </component>
+</project>

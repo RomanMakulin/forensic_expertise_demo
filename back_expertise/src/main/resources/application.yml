@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: expertise
+  config:
+    import: "configserver:http://localhost:8888"
